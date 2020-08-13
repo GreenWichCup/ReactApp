@@ -1,0 +1,22 @@
+.MachineOutput{
+    border: solid black 2px;
+    max-width: 300px ;
+    max-height: 150px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+p {
+    font-size: 45px;
+    margin: 10px 10px;
+}
+
+.play{
+    background-color: blue;
+}
+
+.win {
+    background-color: green;
+}
+.lose {
+    background-color: red;
+}

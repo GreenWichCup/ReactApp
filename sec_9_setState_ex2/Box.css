@@ -1,0 +1,8 @@
+.Box{
+    width: 250px;
+    height: 250px;
+    border: solid black 1px
+}
+.Box:hover{
+    cursor: pointer;
+}
