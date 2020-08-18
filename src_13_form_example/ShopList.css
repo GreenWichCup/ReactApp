@@ -1,0 +1,12 @@
+.ShopList{
+display: block;
+justify-content: center;
+text-align: center;
+margin: auto;
+}
+.item{
+    display: flex;
+    text-align: center;
+align-content: center;
+align-items: center;
+}

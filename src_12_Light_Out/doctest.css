@@ -1,0 +1,23 @@
+body div .class {
+}
+
+body > div .class {
+}
+body > div > .class {
+}
+body div.class {
+}
+
+@media only screen and (max-width: 600px) {
+  monContenu{
+    color: greenyellow;
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .monContenu {
+    color: red;
+    font-size: 3rem;
+  }
+}
