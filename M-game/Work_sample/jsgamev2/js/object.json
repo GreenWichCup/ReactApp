@@ -1,0 +1,38 @@
+{
+  "jsonWeap":[
+    {
+    "url": "longbow.png"
+  },
+  {
+    "url": "greatstaff.png"
+  },
+  {
+    "url": "greatsword.png"
+  },
+  {
+    "url": "longsword.png"
+  },
+  {
+    "url": "axe.png"
+  },
+  {
+    "url": "hammer.png"
+  },
+  {
+    "url": "maul.png"
+  },
+  {
+    "url": "spear.png"
+  },
+  {
+    "url": "claw.png"
+  }
+
+], 
+
+"jsonMapFont": [
+   { "terre" : "road.png" },
+   { "herbe" : "green.png" }
+]
+
+}

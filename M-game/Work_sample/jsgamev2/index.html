@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>RPG</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      data-ad-client="ca-pub-4426918321660150"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+    <script type="application/json" src="js/object.json"></script>
+  </head>
+  <!-- Page Content -->
+  <body>
+    <div class="container">
+      <div class="container">
+        <div id="athDiv" class="row">
+          <div class="col-lg-4 play" id="athBlue">
+            <p id="joueur1">Player 1 :</p>
+            <img src="tilesets/knight.png" alt="error " />
+            <img
+              id="blueWeapon"
+              src="tilesets/dagger.png"
+              alt="error "
+              class="athWeap"
+            />
+            <div class="pvBloc">
+              <div id="pvBlue" class="pv"></div>
+              <h5>Action remaining: 3</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-4" id="console"></div>
+
+          <div class="col-lg-4 play" id="athRed">
+            <p id="joueur2">Player 2 :</p>
+            <img src="tilesets/mage.png" alt="error " />
+            <img
+              id="redWeapon"
+              src="tilesets/dagger.png"
+              alt="error "
+              class="athWeap"
+            />
+
+            <div class="pvBloc">
+              <div id="pvRed" class="pv"></div>
+              <h5>Action remaining: 0</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="playZone" class="container">
+        <div id="coliseum">
+          <img src="tilesets/thecoliseum.png" alt="error " />
+        </div>
+        <div id="button" class="container">
+          <button id="attackButton" class="btn">ATTACK</button>
+          <button id="defendButton" class="btn">DEFEND</button>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div id="winner"><h4>VOUS WON!!!</h4></div>
+
+        <div id="party">
+          <button id="start" class="btn">NEW GAME</button>
+          <span id="span1">
+            Name player 1 :
+            <button id="bSpan1" class="btn">save</button>
+          </span>
+
+          <span id="span2">
+            Name player 2 :
+            <button id="bSpan2" class="btn">save</button>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ajaxGet.js"></script>
+
+    <script type="text/javascript" src="js/classes/Tilesetv4.js"></script>
+    <script type="text/javascript" src="js/classes/player.js"></script>
+    <script type="text/javascript" src="js/classes/animation.js"></script>
+    <script type="text/javascript" src="js/styleAth.js"></script>
+    <script type="text/javascript" src="js/rpg.js"></script>
+  </body>
+</html>

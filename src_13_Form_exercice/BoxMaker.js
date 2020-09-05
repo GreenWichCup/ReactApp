@@ -15,7 +15,6 @@ class BoxMaker extends Component {
     }
 
     removeBox(id){
-     
         this.setState((st)=>({boxList:st.boxList.filter(p=>p.id!==id)}))
         console.log(this.state.boxList)
     }

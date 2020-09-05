@@ -1,0 +1,192 @@
+body {
+display: flex;
+align-content: center;
+flex-direction: column  ;
+align-items: center;
+background-color: black;
+}
+
+#athDiv {
+    display: none;
+    justify-content: space-around;
+    border: solid green 2px;
+    width: 1200px;
+    height: 200px;
+    
+    margin-bottom: 50px;
+}
+
+
+#athBlue
+{
+color: blue;
+font-size: 1.5rem;
+}
+
+
+#athRed
+{
+color: red;
+font-size: 1.5rem;
+}
+
+
+
+
+
+
+.athWeap
+{
+    width : 60px!important;
+    height: 60px!important;
+}
+
+
+#athDiv img {
+        width: 70px;
+        height: 70px;
+        margin: 10px 10px 10px 10px
+    }
+
+.play {
+        color: red;
+    }
+
+.pvBloc {
+    background-color: darkred;
+    width: 304px;
+    height: 20px;
+    border:solid 2px saddlebrown;
+}
+.pv {
+    background-color: lawngreen;
+    width: 300px;
+    height: 16px;
+}
+
+
+#button
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#attackButton, #defendButton 
+{
+    border-radius: 0.2rem;
+    background-color: peru;
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+
+#console
+{
+ font-size: 1rem;
+ border: solid green 2px;
+ overflow: scroll;
+ padding: 10px 10px 10px 10px;
+ height: 200px;
+}
+
+
+ 
+canvas {
+	display: none;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+	border: 1px solid black;
+	width: auto;
+    height: auto;
+}
+
+
+
+#winner{
+    display: none;
+    color: peru;
+    
+}
+
+
+#start
+{
+background: peru;
+color: black;
+border: solid yellow 2px;
+font-size: 1.5rem;
+cursor: pointer;
+border-radius: 8rem;
+height: auto;
+transform: scale(1);
+transition: ease-in-out 200ms;
+margin-top: 15px;
+display:flex;
+align-content:center;
+}
+:hover > #start
+{
+border-color: green	;
+transform: scale(1.15);
+}
+
+#party {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#playZone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+span {
+    display: none;
+    position: relative;
+    top: -196px;
+    left: 0px;
+    width: 200px;
+    height: 132px;
+    text-align: center;
+    background-color: brown;
+    padding-top: 10px;
+   
+}
+
+span {
+    display: none;
+    position: relative;
+    top: -65px;
+    left: 0px;
+    width: 200px;
+    height: 132px;
+    text-align: center;
+    background-color: brown;
+    padding-top: 10px;
+   
+}
+
+
+#bSpan1,#bSpan2{
+    background-color: peru!important;
+    font-size: 1rem!important;
+    border: solid 1px black;
+    margin-top: -5px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
